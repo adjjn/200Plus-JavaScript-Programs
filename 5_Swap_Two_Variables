@@ -1,0 +1,12 @@
+let variable1 = prompt ("Enter the first variable: ");
+let variable2 = prompt ("Enter the second variable: ");
+
+console.log (`the variables before swapping: variable1 = ${variable1} and variable2 = ${variable2}`);
+
+// Swapping Code
+
+let temp = variable1;
+variable1 = variable2;
+variable2 = temp;
+
+console.log (`the variables after swapping: variable1 = ${variable1} and variable2 = ${variable2}`);
